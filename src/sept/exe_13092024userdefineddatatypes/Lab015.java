@@ -1,10 +1,13 @@
 package sept.exe_13092024userdefineddatatypes;
+import java.util.Scanner;
 
 public class Lab015 {
     public static void main(String[] args) {
         // Problem statement - print table of 10
         // Formatting
-        int num = 10;
+        Scanner sc = new Scanner (System.in);
+        System.out.println(" Enter the value of num");
+        int num = sc.nextInt();
         // %d = int, byte, short, long
         // %s = string
         // %c = char

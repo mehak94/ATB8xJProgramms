@@ -1,9 +1,9 @@
 package sept.exe_30092024functions;
 
 public class Lab103noreturntypefn {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         for ( int i = 0; i<100; i++){    // to call the the fn 100 times we can use for loop
-            greet();   // repeat this line to get multiple times the output
+           greet();   // repeat this line to get multiple times the output, this is calling of fn
         }
         // define
         // No return type no argument
