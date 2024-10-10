@@ -6,5 +6,5 @@ public class Lab110 {
     public static void main(String[] args) {
 
         // Scanner sc = new Scanner();
-// need to import te class if it is present somewhere else
+// need to import the class if it is present somewhere else
     }}
