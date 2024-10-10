@@ -1,4 +1,4 @@
-package oct;
+package oct.exe_02102024objectclass;
 
 public class Lab107 {
     public static void main(String[] args) {
