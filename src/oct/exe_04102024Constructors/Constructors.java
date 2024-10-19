@@ -6,7 +6,7 @@ public class Constructors {
         // It has the same name as the class name.
         // It has no return type.
         // The main purpose of constructor is to initialize the instance variable
-// We can hardcode th evalue in it.
+// We can hardcode th evaluate in it.
         // Parameterized constructor can set or initialize the instance variable.
     }
 }
