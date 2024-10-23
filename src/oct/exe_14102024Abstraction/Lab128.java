@@ -10,4 +10,7 @@ public class Lab128 {
     // abstract can be a class or method or both
     // It means incomplete.
   // If a class doesnot have any abstract method then it is a concrete class
+    // In abstract class we cannot add body.
+    // If parent class has parameterized constructor then extended class should also have it.
+    // We cannot create a object of abstract class.
 }

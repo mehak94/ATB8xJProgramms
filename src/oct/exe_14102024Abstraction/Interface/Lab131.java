@@ -5,7 +5,7 @@ public class Lab131 {
     // Instance of interface cannot be created.
     // Interface can contain the following members:-
     // public  final static variables
-    // pblic abstract methods
+    // public abstract methods
     // public static inner classes
     // In case of abstraction we have used extends but incase of interface we have used implement
 }
