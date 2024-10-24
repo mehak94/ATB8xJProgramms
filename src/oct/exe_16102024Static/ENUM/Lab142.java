@@ -8,9 +8,12 @@ public class Lab142 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the hexcode");
         String hexcode = sc.nextLine();
-        if(hexcode == "#FF0000"){ // if(color.Green.gethexcode()
+        if(hexcode == "#FF0000")
+        { // if(color.Green.gethexcode()
             System.out.println("color is red");
-        }else{
+        }
+        else
+        {
             System.out.println("Color is not identified");
         }
     }
