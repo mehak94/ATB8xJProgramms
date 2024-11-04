@@ -14,7 +14,7 @@ public class Lab137 {
 }
 class Student{
     int age;// Instance variable(Non- Static)
-    static String school_name = "ABC";// sTATIC VARIABLE
+    static String school_name = "ABC";// STATIC VARIABLE
 
     public Student(int age){// Constructor
         this.age=age;
