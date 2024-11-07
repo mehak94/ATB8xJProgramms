@@ -27,7 +27,7 @@ public class Lab185_Difference {
         Set ts = new TreeSet();// Black and Red Tree mechanism to store the elements, order is maintained in this case.
         ts.add("Dapple");// aLSO NATURAL SORTING WILL BE DONE
         ts.add("Apricot");// Red and black tree means left hand size  should be less than parent and right side should be greater than parent
-        ts.add("Mnjeer");
+        ts.add("Manjeer");
      //   ts.add("null"); we cannot add null in TreeSet
         ts.add("Pam");
         ts.add("Apple");
