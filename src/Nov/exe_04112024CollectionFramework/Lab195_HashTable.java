@@ -6,7 +6,8 @@ import java.util.Hashtable;
 public class Lab195_HashTable {
     public static void main(String[] args) {
       // HashTable is similar to HashMap in which 1 null key is allowed.
-        // Difference between them it is synchronised in nature, slow and Legacy class and it doesnot allow null key and null values.
+        // Difference between them it is synchronised(thread safe) in nature, slow and Legacy class
+        // and it doesnot allow null key and null values.
         // To iterate Legacy class we use enumaration
 
         Hashtable<Integer, String> ht = new Hashtable();

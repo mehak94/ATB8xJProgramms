@@ -22,7 +22,7 @@ public class Lab193 {
         System.out.println(map.containsValue(45));
 
 
-        // To iterate the elements
+        // To iterate the elements using for each loop or entryset
 
         for(Map.Entry<String, Integer>item : map.entrySet()){
             System.out.println(item.getKey()+"->"+item.getValue());
