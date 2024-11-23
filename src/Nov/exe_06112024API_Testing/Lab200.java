@@ -6,10 +6,12 @@ public class Lab200 {
         // Full form is Simple object access protocol
         // It is XML based protocol
         // It is used to transfer the data from client to server
+        //Complex Structure and WSDL(Web Services Description Language)
         // It uses XML information set for its message format HTTP, SMTP also supported.
         // Best suited for enterprise level applications like JP Morgan bank.
         // Provides built in security features through WS - security( Web Services)
         // Message sent -> It takes lot of band width
         // like we have to open the message and close the message, it behaves like envelope.
+        // SOAP is protocol means we have to follow some rules and it is restricted.
     }
 }
