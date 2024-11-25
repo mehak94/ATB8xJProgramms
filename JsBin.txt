@@ -1,1 +1,104 @@
 https://jsbin.com/nufiba/edit?js,console
+
+console.log("Hello World")
+console.log("Hello World"); // Semicolon is optional in js
+
+var age = 65
+console.log(age)
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(age*2)
+
+var age = 45
+age = age+1
+console.log(age)
+
+var xObject = {};
+xObject = {
+  name : "Mehak",
+  age : 99           // We can create a object in Jslike this, This is not a JSON
+}
+
+console.log(xObject.name)
+console.log(xObject["name"])// We can fetch the value like this
+console.log(xObject.age)
+
+// wE CAN ALSO json VALUE IN jS AS IT SUPPORTS IT
+// as follows
+
+var json_data={
+  "name" : "Mehak",
+  "age" : 30
+};
+
+console.log(10==10)
+console.log(10<10)
+console.log(10>10)
+
+
+// if else statement
+
+var a = 10;
+if(a>=10){
+  console.log("A>=10")
+}
+else{
+  console.log("A<10")
+}
+
+
+// switch statement is same as java only output statement is different
+
+// for loop
+
+for(var i = 1; i<5; i++){
+  console.log(i);
+}
+
+// Functions
+
+// Used to do a job - logic which can perform a task.
+
+// Define
+function greet(){ // We need write function then its name
+  console.log("Hi, How are you?")
+}
+
+// Calling a function
+
+greet()  // function name need to be mention
+
+function sumoftwo(a,b){
+  return a+b
+}
+
+var result = sumoftwo(3,4)
+console.log(result)
+
+// JSON -> JS Object as POSTMAN supports only JS Object
+// we are sending request to POSTMAN in JSON and getting response in JSON but POSTMAN understands only JS
+// that'swhy we need to convert JSON to JS
+
+var response = '{"name" : "Mehak" , "age" : 30, "cars" : "null"}'
+var parseResponseJS = JSON.parse(response)
+console.log(parseResponseJS["name"])
+console.log(parseResponseJS["age"])   // converting JSON to JS
+
+// Also we can convert JS to JSON
+
+var jsObject = {
+  name :"Mehak"
+  age : 30
+}
+
+var JSONStr = JSON.stringify(jsObject)
+console.log(JSONStr)
+
+var xArray = [" Apple", " Orange" , " banana"]
+console.log(xArray[0])
+console.log(xArray[1])
+
+
+
