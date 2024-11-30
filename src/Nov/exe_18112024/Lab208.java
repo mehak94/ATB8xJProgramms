@@ -2,6 +2,10 @@ package Nov.exe_18112024;
 
 public class Lab208 {
     public static void main(String[] args) {
+
+        // Actually first we write testcases mannually then execute them in POSTMAN then on REST ASSURED.
+
+
       // Steps to check the project:-
       // API Documentation, Import the request to POSTMAN
       // iF WE DONOT HAVE DOCUMENTATION we have to create by ourselves
