@@ -11,7 +11,9 @@ public class Lab209_HTMLReport {
         //cd Postman,mkdir PostmanExp,cd PostmanExp
         // newman run mention URL then for generating report type -r cli,it means i can run the command line
         // then again type newman run mention URL -r cli,htmlextra , this will create a file
+        // then type cd newman
         // then type dir
-        // cd newman
+        // then type html file complete name in double quotes and press enter
+
     }
 }
