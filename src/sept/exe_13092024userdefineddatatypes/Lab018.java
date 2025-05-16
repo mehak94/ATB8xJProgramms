@@ -10,6 +10,6 @@ public class Lab018 {
         // tab_line \t
         //back_space \b
         //carrage:- car_r \r
-        System.out.println(" Mehak \n Kohli \t Rishabh \b Ohri  \r Parisha");
+        System.out.println(" Mehak \n Kohli \t Rishabh \b Ohri \r Parisha");
     }
 }

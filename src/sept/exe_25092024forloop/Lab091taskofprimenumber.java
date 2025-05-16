@@ -11,7 +11,7 @@ public class Lab091taskofprimenumber {
                     isPrime = false;
                     break;
                 }
-            }
+           }
 
             if (isPrime) {
                 System.out.println(i + " is Prime ");
